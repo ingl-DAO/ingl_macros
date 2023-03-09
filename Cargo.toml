@@ -1,0 +1,20 @@
+[package]
+name = "ingl_macros"
+version = "0.1.0"
+authors = ["kamda-cyrial", "ingl-DAO"]
+edition = "2021"
+description = "A library for Ingl Programs."
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+syn = "1.0.103"
+quote = "1.0.21"
+proc-macro2 = "1.0.47"
+
+[profile.release]
+overflow-checks = true
+
+[lib]
+proc-macro = true

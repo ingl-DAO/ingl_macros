@@ -1,1 +1,0 @@
-initSidebarItems({"derive":[["InglErr","Ingl Errors macro"],["Validate","Validate macro used to validate struct with a validation_phrase"]]});
